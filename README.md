@@ -91,7 +91,7 @@
             Control your 12v. led grow lights, colours and timing.
     </li>
 </ul>
-    <h3>Additional modules</h3>
+<h3>Additional modules</h3>
 <ul>
     <li>
             <strong>
