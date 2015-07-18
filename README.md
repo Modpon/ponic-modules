@@ -1,39 +1,26 @@
 # Ponic Modules
-Start with the basics and extend your aqua- or hydroponics sytem to fully automate and analize your garden or farm. The ponics modules can be used stand alone or in a mesh network.
+<p>Start with the basics and extend your aqua- or hydroponics sytem to fully automate and analize your garden or farm. The ponics modules can be used stand alone or in a mesh network.</p>
+<p>The controlling part comes from the Arduino Nano, this simple but effective controller is easy to program and there is lots of info online.</p>
+
+<p><strong>We are currently working on the basic controller.</strong></p>
 
 <ul>
     <li>
         <p>
-            <strong>Basic Controller</strong>
+            <strong><a href="/Modpon/mini-controller">Mini Controller</a></strong>
         </p>
         <p>
-            A basic automation controller for hydroponics or aquaponics system. The module works stand alone.
+            This tiny controller simply turns a 3-5v. pump on and off, it uses a mini usb for power.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong><a href="/Modpon/basic-controller-hardware">Basic Controller</a></strong>
         </p>
         <p>
-            Manage different systems using drip, ebb- flow or NFT for example.
+            A basic automation controller for hydroponics or aquaponics system. The module works stand-alone.
+        Control up to 3 12v. pumps and multiple air and water sensors. 
         </p>
-        <p>
-            There are 3 knobs to change the pump power, run time and off time. The timing and pump power is visible on the oled screen together with some
-            sensor data (optional).
-        </p>
-        <p>
-            The automation part comes from the Arduino Nano, this simple but effective controller is easy to program and there is lots of info online.
-        </p>
-        <p>
-            A few examples of things you can do in code:
-        </p>
-        <ul>
-            <li>
-                <p>
-                    Have the lights run on a certain cycle.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Create warnings on the display when temperature drops or other sensor notifications.
-                </p>
-            </li>
-        </ul>
     </li>
     <li>
         <p>
