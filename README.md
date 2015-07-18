@@ -4,178 +4,110 @@
 
 <p><strong>We are currently working on the basic controller.</strong></p>
 
+<h2>Modules</h2>
 <ul>
     <li>
-        <p>
-            <strong><a href="/Modpon/mini-controller">Mini Controller</a></strong>
-        </p>
-        <p>
+            <strong><a href="https://github.com/Modpon/mini-controller">Mini Controller</a></strong>
+        <br>
             This tiny controller simply turns a 3-5v. pump on and off, it uses a mini usb for power.
-        </p>
     </li>
     <li>
-        <p>
-            <strong><a href="/Modpon/basic-controller-hardware">Basic Controller</a></strong>
-        </p>
-        <p>
+            <strong><a href="https://github.com/Modpon/basic-controller-hardware">Basic Controller</a></strong>
+        <br>
             A basic automation controller for hydroponics or aquaponics system. The module works stand-alone.
-        Control up to 3 12v. pumps and multiple air and water sensors. 
-        </p>
+        Control up to 3 12v. pumps and multiple air and water sensors.
     </li>
     <li>
-        <p>
             <strong>Hub</strong>
-        </p>
-        <p>
+        <br>
             This is the brain, it processes the information from the modules and saves evrything in the database. The controller is connected to your router
             (LAN or Wifi) and is accessible with your computer or mobile device.
-        </p>
     </li>
     <li>
-        <p>
             <strong>Sub Hub</strong>
-        </p>
-        <p>
+        <br>
             An arduino hub with lots of inputs for wired connections, see below.
-        </p>
     </li>
     <li>
-        <p>
             <strong>Fish feeder</strong>
-        </p>
-        <p>
+        <br>
             Starts a stepper motor on certain times and runs x seconds.
-        </p>
     </li>
     <li>
-        <p>
             <strong>Pump controller</strong>
-        </p>
-        <p>
+<br>
             Triple-mode pump control: always on, time toggle, manual, it pumps water from the fish tank to the grow beds.
-        </p>
     </li>
     <li>
-        <p>
             <strong>Valve controller</strong>
-        </p>
-        <p>
+<br>
             Turns a valve on or off, use for dripping systems
-        </p>
     </li>
     <li>
-        <p>
             <strong>Analyzers/ Sensors</strong>
-        </p>
         <ul>
-            <li>
-                <p>
-                    Water temperature
-                </p>
+            <li>Water temperature
             </li>
-            <li>
-                <p>
-                    Air temperature &amp; humidity
-                </p>
+            <li>Air temperature &amp; humidity
             </li>
-            <li>
-                <p>
-                    Light sensor
-                </p>
+            <li>Light sensor
             </li>
-            <li>
-                <p>
-                    PH
-                </p>
+            <li>PH
             </li>
-            <li>
-                <p>
-                    EC (electro conductivity)
-                </p>
+            <li>EC (electro conductivity)
             </li>
-            <li>
-                <p>
-                    Water quality (Na+, Ca+, F-, Cl-, Br-, I-, Cu2+, K+, Mg2+, NO3-)
-                </p>
+            <li>Water quality (Na+, Ca+, F-, Cl-, Br-, I-, Cu2+, K+, Mg2+, NO3-)
             </li>
         </ul>
     </li>
     <li>
-        <p>
             <strong>Water flow (for the outlet)</strong>
-        </p>
-        <p>
+<br>
             Measures the flow of water; to sump tank, plants, etc.
-        </p>
     </li>
     <li>
-        <p>
             <strong>Overflow sensor</strong>
-        </p>
-        <p>
+<br>
             Shuts down the pump when water is flowing over the fish tanks or grow beds.
-        </p>
     </li>
     <li>
-        <p>
             <strong>Water level check</strong>
-        </p>
-        <p>
+<br>
             measures distance between top and water,
-        </p>
     </li>
     <li>
-        <p>
             <strong>Water heater</strong>
-        </p>
-        <p>
+<br>
             Turn water heater on if tank too cold. Check growbed and tank temperature sensors.
-        </p>
     </li>
     <li>
-        <p>
             <strong>Syphon activity</strong>
-        </p>
-        <p>
+<br>
             Checks if water is going through the siphon with vibration or float sensor. Trigger alert if there's no activity.
-        </p>
     </li>
     <li>
-        <p>
             <strong>Grow lights</strong>
-        </p>
-        <p>
+<br>
             Control your 12v. led grow lights, colours and timing.
-        </p>
     </li>
 </ul>
-<p>
-    <strong>Additional modules</strong>
-</p>
+    <h3>Additional modules</h3>
 <ul>
     <li>
-        <p>
             <strong>
                 Power pack
-                <br/>
-            </strong>
+            </strong><br/>
             Stack of batteries to use modules in remote places. These can be charged with solar panels.
-        </p>
     </li>
     <li>
-        <p>
             <strong>
                 Solar panels
-                <br/>
-            </strong>
+            </strong><br/>
             Charge the battery pack.
-        </p>
     </li>
     <li>
-        <p>
             <strong>Wireless</strong>
             <br/>
             Control and send data from the modules to a hub with RF.
-        </p>
     </li>
 </ul>
